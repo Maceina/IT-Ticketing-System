@@ -11,8 +11,8 @@ Minimalistic Usa states capital lookup, with hardcoded states.json file, with st
 1. Clone or download this repository.
 2. Use Visual studio code IDE, with extension: "Live server".
 3. Open repository in Visual studio code.
-4. Open index.html file and by rigth clicking start live server.
-5. Finally: find your favorite state.
+4. Open index.html file then right click and choose: start live server.
+5. Finally: find your favorite state on http://localhost:5000.
 
 # Showcase:
 
