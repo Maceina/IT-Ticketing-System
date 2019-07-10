@@ -17,7 +17,7 @@ Minimalistic Usa states capital lookup, with hardcoded states.json file, with st
 # Showcase:
 
 1. Empty search:
-![Emty Search](C:\Users\maceina\Desktop\repo\State-Capital-Lookup\images\empty search.png)
+![Emty Search](https://github.com/Maceina/State-Capital-Lookup/blob/master/images/empty%20search.png?raw=true)
 
 2. Searching states by names:
 ![Found states](C:\Users\maceina\Desktop\repo\State-Capital-Lookup\images\found.png)
