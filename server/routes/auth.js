@@ -10,7 +10,7 @@ const User = require('../models/User');
 
 // @route   GET api/auth
 // @desc    Get Logged in user
-// @access  Private
+// @accesss  Private
 router.get('/', auth, async (req, res) => {
   try {
     // Gets the user that matches the id and returns info of the user w/o the password
