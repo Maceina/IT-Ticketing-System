@@ -18,7 +18,7 @@ import Alerts from './components/layout/Alerts';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
-// Utils
+// Utilss
 import setAuthToken from './utils/setAuthToken';
 // Styles
 import 'materialize-css/dist/css/materialize.min.css';
