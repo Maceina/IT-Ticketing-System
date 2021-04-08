@@ -6,7 +6,7 @@ const app = express();
 
 // Connect Database
 connectDB();
-//123
+//12
 // Init Middleware
 app.use(express.json({ extended: false }));
 
