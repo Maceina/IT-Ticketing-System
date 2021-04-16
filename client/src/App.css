@@ -1,0 +1,328 @@
+
+:root {
+  --primary-color: #1e88e5;
+  --danger-color: #f02a2a;
+  --success-color: #28a745;
+}
+
+.btn-label {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 1em;
+}
+/* UTILS */
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-links {
+  font-size: 0.9em;
+}
+
+.nav-links.btn-small {
+  text-transform: capitalize;
+}
+
+select {
+  font-size: 0.9em;
+}
+/* END OF UTILS */
+
+/* OVER WRITE MATERIALIZE CSS */
+
+/* Side Nav */
+.sidenav li.active,
+.sidenav li.active:focus {
+  background-color: #0000001a;
+  color: 000;
+}
+
+/* Chip */
+a.chip.active,
+a.chip:active,
+a.chip:focus,
+a.chip:focus > span.grey-text,
+a.chip.active > span.grey-text,
+a.chip.active:active > span.grey-text
+a.chip.active:focus > span.grey-text {
+  background-color: var(--primary-color);
+  color: white !important;
+  transition: ease 0.5s;
+}
+
+a.chip.filter.active,
+a.chip.filter.active > span.grey-text,
+a.chip.filter:active,
+a.chip.filter:focus,
+a.chip.filter:active > span.grey-text,
+a.chip.filter:focus > span.grey-text{
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  transition: ease 0.5s;
+}
+
+a.chip.filter.green-text.active,
+a.chip.filter.green-text.active > span.grey-text,
+a.chip.filter.green-text:active,
+a.chip.filter.green-text:focus,
+a.chip.filter.green-text:active > span.grey-text,
+a.chip.filter.green-text:focus > span.grey-text{
+  background-color: #388e3c !important;
+  color: white !important;
+  transition: ease 0.5s;
+}
+
+a.chip.filter.orange-text.active,
+a.chip.filter.orange-text.active > span.grey-text,
+a.chip.filter.orange-text:active,
+a.chip.filter.orange-text:focus,
+a.chip.filter.orange-text:active > span.grey-text,
+a.chip.filter.orange-text:focus > span.grey-text{
+  background-color: #f57c00 !important;
+  color: white !important;
+  transition: ease 0.5s;
+}
+
+a.chip.filter.grey-text.active,
+a.chip.filter.grey-text.active > span.grey-text,
+a.chip.filter.grey-text:active,
+a.chip.filter.grey-text:focus,
+a.chip.filter.grey-text:active > span.grey-text,
+a.chip.filter.grey-text:focus > span.grey-text{
+  background-color: #616161 !important;
+  color: white !important;
+  transition: ease 0.5s;
+}
+
+/* Btn */
+.btn-flat:hover {
+  background-color: white !important;
+}
+
+/* Input Text boxes */
+input[type=text] {
+  font-size: 0.9em !important;
+}
+
+input[type=text]:focus {
+  border-color: var(--primary-color) !important;
+}
+
+input[type=password]:focus {
+  border-color: var(--primary-color) !important;
+}
+
+input[type=email]:focus {
+  border-color: var(--primary-color) !important;
+}
+
+/* Radio button */
+[type=radio]:checked+span,
+[type=radio]:checked+span:before,
+[type=radio]:checked+span:after,
+[type=radio].with-gap:checked+span,
+[type=ra].with-gap:checked+span:before,
+[type=ra].with-gap:checked+span:after {
+  border: "2px solid" !important;
+  border-color: var(--primary-color) !important;
+}
+
+[type=radio]:checked+span:after,
+[type=ra].with-gap:checked+span:after {
+  background-color: var(--primary-color) !important;
+}
+
+/* Text Area */
+textarea:focus {
+  border-color: var(--primary-color) !important;
+}
+
+.materialize-textarea {
+  font-size: 0.9em !important;
+}
+
+/* Tab */
+.tab a {
+  text-transform: capitalize !important;
+  color: #4e4e4e !important;
+  font-size: 0.85em !important;
+  font-weight: bold;
+}
+
+.tab .active {
+  color: var(--primary-color) !important;
+  background-color: #e4f3ff !important;
+  font-weight: bold;
+}
+
+.tabs .indicator { 
+  background-color: var(--primary-color) !important;
+}
+
+/* Collecton */
+.collection-item {
+  padding-bottom: 2em !important; 
+}
+
+/* END OF OVER WRITE */
+
+/* BUTTON STYLES */
+#createBtnContainer {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+/* END OF BUTTON STYLES */
+
+/* TICKET STYLES */
+#ticketContainer {
+  padding: 0;
+  margin: 0;
+}
+
+#ticket-header {
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.ticket-links {
+  padding: 1em;
+  margin: 0;
+}
+
+.ticket-actions-container {
+  padding: 0.5em 0 0 0;
+}
+
+.ticket-actions-header {
+  padding-top: 0.5em;
+}
+
+.ticket-actions-label {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+.ticket-label,
+.section-label {
+  font-size: 0.75em;
+  color: gray;
+}
+
+.section-label {
+  font-weight: 500;
+}
+
+.ticket-actions-header,
+.ticket-info-header,
+.ticket-details,
+.ticket-desc {
+  font-size: 0.95em;
+}
+
+.ticket-details,
+.ticket-desc {
+  font-size: 0.9em;
+}
+
+.ticket-actions-header,
+.ticket-info-header {
+  font-weight: bold;
+}
+
+.ticket-info {
+  font-size: 0.9em;
+}
+
+#ticket-id {
+  font-size: 0.8em;
+  margin-right: 1em;
+}
+
+#ticket-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 0.5em; 
+}
+
+/* END OF TICKET STYLES /*
+
+/* COMMENTS STYLES */
+.comment-container {
+  border: none;
+}
+
+.comment-add-container {
+  border: none;
+  padding: 0 !important;
+}
+
+.comment-message {
+  font-size: 0.9em;
+}
+
+.comment-user {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.comment-label {
+  font-size: 0.8em;
+}
+
+.comment-time,
+.comment-user-type {
+  font-size: 0.75em;
+}
+
+.comment-user-type {
+  padding: 0.2em 1em;
+}
+
+.comment-submit {
+  font-size: 2em;
+}
+/* END OF COMMENTS STYLES */
+
+.alert {
+  padding: 0.7rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-badge {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.priority-badge {
+  margin: auto;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
