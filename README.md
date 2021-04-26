@@ -1,7 +1,7 @@
 # IT Ticketing System
 A Ticketing System where an Employee and a IT Personnel (Technician) can collaborate to fix a Hardware/Software issue in the office by issuing a Ticket for each issue.
 
-# User typer
+# User types
 There are 2 user types:
 
 1. Employee
