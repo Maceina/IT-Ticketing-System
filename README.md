@@ -1,3 +1,13 @@
+# Showcase 
+
+![Alt text](/images/1.png?raw=true "Title")
+![Alt text](/images/2.png?raw=true "Title")
+![Alt text](/images/3.png?raw=true "Title")
+![Alt text](/images/4.png?raw=true "Title")
+![Alt text](/images/5.png?raw=true "Title")
+![Alt text](/images/6.png?raw=true "Title")
+![Alt text](/images/7.png?raw=true "Title")
+
 # IT Ticketing System
 A Ticketing System where an Employee and a IT Personnel (Technician) can collaborate to fix a Hardware/Software issue in the office by issuing a Ticket for each issue.
 
@@ -46,13 +56,3 @@ Technician Restrictions:
 1. Express.js
 2. JWT
 3. MongoDB
-
-# Showcase 
-
-![Alt text](/images/1.png?raw=true "Title")
-![Alt text](/images/2.png?raw=true "Title")
-![Alt text](/images/3.png?raw=true "Title")
-![Alt text](/images/4.png?raw=true "Title")
-![Alt text](/images/5.png?raw=true "Title")
-![Alt text](/images/6.png?raw=true "Title")
-![Alt text](/images/7.png?raw=true "Title")
